@@ -1,27 +1,18 @@
 package com.kaleyra.patterns.singleton.camilo;
 
-class DBconnection {
-    private static DBconnection instanceRef = new DBconnection();
+public class Singleton {
+    private static Singleton instanceRef;
 
-    private DBconnection(){}
+    public String name;
 
-    public static DBconnection getInstance(){
-        return instanceRef;
+    private Singleton(String name){
+        this.name = name;
     }
 
-}
-
-class DBconnection2 {
-    private static DBconnection2 instanceRef;
-
-    private DBconnection2(){}
-
-    public static DBconnection2 getInstance() {
+    public static Singleton getInstance(String str) {
         if (instanceRef == null)
-            instanceRef = new DBconnection2();
-
+            instanceRef = new Singleton(str);
         return instanceRef;
-
     }
-
 }
+
