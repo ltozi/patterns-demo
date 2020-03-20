@@ -1,4 +1,4 @@
-package com.kaleyra.patterns.singleton.luigi;
+package com.kaleyra.patterns.singleton.marco;
 
 public final class Singleton {
     private static Singleton instance;
