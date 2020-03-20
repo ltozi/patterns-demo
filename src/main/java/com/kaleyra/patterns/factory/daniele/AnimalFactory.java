@@ -1,6 +1,6 @@
 package com.kaleyra.patterns.factory.daniele;
 
-//la Factory crea la specia giusta di animale in base all'enum
+//la Factory crea la specie giusta di animale in base all'enum
 //specificato in input
 public class AnimalFactory {
 
