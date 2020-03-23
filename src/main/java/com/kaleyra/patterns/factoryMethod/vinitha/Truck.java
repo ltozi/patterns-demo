@@ -1,4 +1,4 @@
-package com.kaleyra.patterns.factoryMethod.marco;
+package com.kaleyra.patterns.factoryMethod.vinitha;
 
 public class Truck implements Transport {
 

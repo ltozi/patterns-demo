@@ -1,4 +1,4 @@
-package com.kaleyra.patterns.factoryMethod.marco.logistics;
+package com.kaleyra.patterns.factoryMethod.vinitha.logistics;
 
 import java.util.Scanner;
 
