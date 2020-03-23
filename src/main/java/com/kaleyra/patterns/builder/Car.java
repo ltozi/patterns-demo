@@ -1,11 +1,5 @@
 package com.kaleyra.patterns.builder;
 
-import com.kaleyra.patterns.builder.Type;
-import com.kaleyra.patterns.builder.Engine;
-import com.kaleyra.patterns.builder.GPSNavigator;
-import com.kaleyra.patterns.builder.Transmission;
-import com.kaleyra.patterns.builder.TripComputer;
-
 /**
  * Car is a product class.
  */
