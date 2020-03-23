@@ -2,7 +2,8 @@ package com.kaleyra.patterns.singleton.federico;
 
 public class Singleton {
 
-    Singleton() throws InstantiationException {
+
+   private Singleton() throws InstantiationException {
         if (instance != null) throw new InstantiationException();
     }
 
