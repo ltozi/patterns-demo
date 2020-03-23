@@ -1,7 +1,7 @@
 package com.kaleyra.patterns.adapter;
 
 /**
- * Somewhere in client code...
+ * Somewhere in client code..
  */
 public class Demo {
     public static void main(String[] args) {
